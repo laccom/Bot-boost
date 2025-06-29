@@ -1,6 +1,7 @@
 # 📜 INSTRUCTIONS D’UTILISATION – TOKEN JOINER
 
-![image](https://github.com/user-attachments/assets/6249f571-e836-425c-8ae0-2c40881767b9)
+![image](https://github.com/user-attachments/assets/039f1209-8aaa-432b-98a6-edd9438fff48)
+
 
 ## 🔧 PRÉREQUIS
 1. Avoir Node.js installé 👉 [https://nodejs.org/](https://nodejs.org/)
