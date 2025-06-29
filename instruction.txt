@@ -14,22 +14,34 @@
 5. Récupère ta clé API dans la section **API Key** (c’est une longue chaîne de caractères).
    ➤ Elle sera demandée lors du premier lancement du script.
 
+💳 OBTENIR UNE CLÉ D’ACCÈS AU SCRIPT :
+Pour utiliser Token Joiner, une **clé de licence** est obligatoire.  
+Elle est **liée à ton appareil (HWID)** et permet d’activer le script.
+
+🔐 Pour l’obtenir :  
+1. Va sur 👉 https://sellauth.com  
+2. Achète une **clé Token Joiner** (5 €)  
+3. La clé te sera envoyée automatiquement.
+
+➤ Elle te sera demandée **lors du premier lancement**.
+
 📂 FICHIERS À CONFIGURER :
-1. tokens.txt
-   ➤ Crée ce fichier à la racine si ce n’est pas déjà fait.
+1. tokens.txt  
+   ➤ Crée ce fichier à la racine si ce n’est pas déjà fait.  
    ➤ Colle dedans un token Discord valide par ligne.
 
-2. config.json
-   ➤ Pas besoin de le créer manuellement. 
-   ➤ Lors du premier lancement, le script va te demander :
-     • ta **clé API 2Captcha**
+2. config.json  
+   ➤ Pas besoin de le créer manuellement.  
+   ➤ Lors du premier lancement, le script va te demander :  
+     • ta **clé d'accès au script**  
+     • ta **clé API 2Captcha**  
      • le **code d’invitation Discord** (ex: `abc123` sans `discord.gg/`)
 
 📦 LANCER LE SCRIPT :
-1. Ouvre un terminal dans le dossier du script.
-2. Tape :
+1. Ouvre un terminal dans le dossier du script.  
+2. Tape :  
    > node index.js
 
-🔚 FIN
-Merci d’utiliser TokenJoiner 💻
-Développé par laccom ✨   
+🔚 FIN  
+Merci d’utiliser TokenJoiner 💻  
+Développé par laccom ✨
