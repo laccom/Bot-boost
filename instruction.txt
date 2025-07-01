@@ -6,13 +6,6 @@
    Ouvre un terminal dans le dossier du script, puis tape :
    > npm install
 
-🌐 CRÉER UNE CLÉ API 2CAPTCHA :
-1. Va sur https://2captcha.com/
-2. Crée un compte ou connecte-toi.
-3. Va dans ton tableau de bord (Dashboard).
-4. Recharge ton compte (minimum 0.50$ recommandé).
-5. Récupère ta clé API dans la section **API Key** (c’est une longue chaîne de caractères).
-   ➤ Elle sera demandée lors du premier lancement du script.
 
 💳 OBTENIR UNE CLÉ D’ACCÈS AU SCRIPT :
 Pour utiliser Token Joiner, une **clé de licence** est obligatoire.  
@@ -34,8 +27,12 @@ Elle est **liée à ton appareil (HWID)** et permet d’activer le script.
    ➤ Pas besoin de le créer manuellement.  
    ➤ Lors du premier lancement, le script va te demander :  
      • ta **clé d'accès au script**  
-     • ta **clé API 2Captcha**  
-     • le **code d’invitation Discord** (ex: `abc123` sans `discord.gg/`)
+     • tes infos du bot : token , client id , secret id. 
+     • l'id du serveur à faire rejoindre au tokens (ou il doit avoir obligatoirement le bot dessus sinon ça ne marche pas).
+
+📂 REDIRECT A AJOUTER :
+1. Va sur discord dev portal.
+2. Sur le bot lié au infos que tu as rentré et bien ajoute ce redirect url "https://localhost/callback" (obligatoire).
 
 📦 LANCER LE SCRIPT :
 1. Ouvre un terminal dans le dossier du script.  
