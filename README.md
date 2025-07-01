@@ -1,51 +1,46 @@
 # 📜 INSTRUCTIONS D’UTILISATION – TOKEN JOINER
 
-![image](https://github.com/user-attachments/assets/039f1209-8aaa-432b-98a6-edd9438fff48)
+![image](https://github.com/user-attachments/assets/73c6df58-4629-4981-8100-f7744d09c4dc)
 
-
-## 🔧 PRÉREQUIS
-1. Avoir Node.js installé 👉 [https://nodejs.org/](https://nodejs.org/)
-2. Installer les dépendances du projet (une seule fois) :  
-   Ouvre un terminal dans le dossier du script, puis tape :  
+🔧 PRÉREQUIS :
+1. Avoir Node.js installé (https://nodejs.org/)
+2. Installer les dépendances du projet (une seule fois) :
+   Ouvre un terminal dans le dossier du script, puis tape :
    ```> npm install```
 
-## 🌐 CRÉER UNE CLÉ API 2CAPTCHA
-1. Va sur 👉 [https://2captcha.com/](https://2captcha.com/)
-2. Crée un compte ou connecte-toi.
-3. Va dans ton **tableau de bord (Dashboard)**.
-4. Recharge ton compte (minimum **0.50$** recommandé).
-5. Récupère ta **clé API** dans la section **API Key** *(c’est une longue chaîne de caractères)*.  
-   ➤ Elle sera demandée lors du premier lancement du script.
 
-## 🔐 OBTENIR UNE CLÉ D’ACCÈS AU SCRIPT  
-Pour utiliser Token Joiner, une **clé d’accès** est obligatoire.  
-Cette clé est **liée à ton appareil (HWID)** et permet d’activer le script.
+💳 OBTENIR UNE CLÉ D’ACCÈS AU SCRIPT :
+Pour utiliser Token Joiner, une **clé de licence** est obligatoire.  
+Elle est **liée à ton appareil (HWID)** et permet d’activer le script.
 
-Pour l’obtenir :  
-1. Va sur 👉 [sellauth  (ce lien)](https://laccom-bst.mysellauth.com/product/token-joiner) 
-2. Achète une **clé Token Joiner** pour **5 €**  
-3. La clé te sera envoyée automatiquement.  
+🔐 Pour l’obtenir :  
+1. Va sur 👉 https://sellauth.com  
+2. Achète une **clé Token Joiner** (5 €)  
+3. La clé te sera envoyée automatiquement.
 
 ➤ Elle te sera demandée **lors du premier lancement**.
 
-## 📂 FICHIERS À CONFIGURER
+📂 FICHIERS À CONFIGURER :
+1. tokens.txt  
+   ➤ Crée ce fichier à la racine si ce n’est pas déjà fait.  
+   ➤ Colle dedans un token Discord valide par ligne.
 
-### 1. `tokens.txt`
-- Crée ce fichier à la racine si ce n’est pas déjà fait.  
-- Colle dedans **un token Discord valide par ligne**.
+2. config.json  
+   ➤ Pas besoin de le créer manuellement.  
+   ➤ Lors du premier lancement, le script va te demander :  
+     • ta **clé d'accès au script**  
+     • tes infos du bot : token , client id , secret id. 
+     • l'id du serveur à faire rejoindre au tokens **(ou il doit avoir obligatoirement le bot dessus sinon ça ne marche pas)**.
 
-### 2. `config.json`
-- Pas besoin de le créer manuellement.  
-- Lors du **premier lancement**, le script va te demander :
-  - ta **clé d'accès au script**
-  - ta **clé API 2Captcha**
-  - le **code d’invitation Discord** (ex: `abc123` sans `discord.gg/`)
+📂 REDIRECT A AJOUTER :
+1. Va sur discord dev portal.
+2. Sur le bot lié au infos que tu as rentré et bien ajoute ce redirect url "https://localhost/callback" **(obligatoire)**.
 
-## 📦 LANCER LE SCRIPT
+📦 LANCER LE SCRIPT :
 1. Ouvre un terminal dans le dossier du script.  
-2. Tape la commande :  
-```> node index.js```
+2. Tape :  
+   ```> node index.js```
 
-## 🔚 FIN
-Merci d’utiliser **TokenJoiner** 💻  
-Développé par **laccom** ✨
+🔚 FIN  
+Merci d’utiliser TokenJoiner 💻  
+Développé par laccom ✨
