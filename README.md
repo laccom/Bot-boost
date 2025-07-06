@@ -2,25 +2,25 @@
 
 ![image](https://github.com/user-attachments/assets/73c6df58-4629-4981-8100-f7744d09c4dc)
 
-🔧 PRÉREQUIS :
+# 🔧 PRÉREQUIS :
 1. Avoir Node.js installé (https://nodejs.org/)
 2. Installer les dépendances du projet (une seule fois) :
    Ouvre un terminal dans le dossier du script, puis tape :
    ```> npm install```
 
 
-💳 OBTENIR UNE CLÉ D’ACCÈS AU SCRIPT :
+# 💳 OBTENIR UNE CLÉ D’ACCÈS AU SCRIPT :
 Pour utiliser Token Joiner, une **clé de licence** est obligatoire.  
 Elle est **liée à ton appareil (HWID)** et permet d’activer le script.
 
-🔐 Pour l’obtenir :  
+# 🔐 Pour l’obtenir :  
 1. Va sur 👉 https://sellauth.com  
 2. Achète une **clé Token Joiner** (5 €)  
 3. La clé te sera envoyée automatiquement.
 
 ➤ Elle te sera demandée **lors du premier lancement**.
 
-📂 FICHIERS À CONFIGURER :
+# 📂 FICHIERS À CONFIGURER :
 1. tokens.txt  
    ➤ Crée ce fichier à la racine si ce n’est pas déjà fait.  
    ➤ Colle dedans un token Discord valide par ligne.
@@ -32,11 +32,11 @@ Elle est **liée à ton appareil (HWID)** et permet d’activer le script.
      • tes infos du bot : token , client id , secret id. 
      • l'id du serveur à faire rejoindre au tokens **(ou il doit avoir obligatoirement le bot dessus sinon ça ne marche pas)**.
 
-📂 REDIRECT A AJOUTER :
+# 📂 REDIRECT A AJOUTER :
 1. Va sur discord dev portal.
 2. Sur le bot lié au infos que tu as rentré et bien ajoute ce redirect url "https://localhost/callback" **(obligatoire)**.
 
-📦 LANCER LE SCRIPT :
+# 📦 LANCER LE SCRIPT :
 1. Ouvre un terminal dans le dossier du script.  
 2. Tape :  
    ```> node index.js```
